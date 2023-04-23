@@ -1,0 +1,181 @@
+/* css for the stripe part */
+.FormGroup {
+  margin: 0 15px 20px;
+  padding: 0;
+  border-style: none;
+  background-color: #7795f8;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #829fff;
+  border-radius: 4px;
+}
+
+.FormRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 15px;
+  border-top: 1px solid #819efc;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+}
+
+button {
+  display: block;
+  font-size: 16px;
+  width: calc(100% - 30px);
+  height: 40px;
+  margin: 40px 15px 0;
+  background-color: #f6a4eb;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #ffb9f6;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  will-change: transform, background-color, box-shadow;
+  border: none;
+}
+
+button:active {
+  background-color: #d782d9;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #e298d8;
+  transform: scale(0.99);
+}
+
+.App {
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 25%;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+/* Orginal css for the cart page*/
+body {
+  margin: 10px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  height: 50px;
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #840132;
+  font-weight: normal;
+}
+
+td {
+  padding: 10px 5px;
+  font-size: 18px;
+}
+
+td input {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
+
+td a {
+  color: #840132;
+  font-size: 18px;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 3px solid #840132;
+  width: 100%;
+  max-width: 300px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+.quantity-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -160px;
+}
+
+.quantity-counter > button {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  border-style: hidden;
+  color: #fff;
+  background: #840132;
+}
+
+.quantity-counter > button:hover {
+  background-color: #d21c5f;
+}
+
+.quantity-counter > input {
+  width: 20px;
+  height: 18px;
+  margin-top: 5px;
+}
+
+.quantity-counter > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.end {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  background: #840132;
+  border-radius: 7px;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.end:hover {
+  background: #d21c5f;
+}
