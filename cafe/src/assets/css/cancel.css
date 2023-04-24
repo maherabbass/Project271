@@ -1,0 +1,23 @@
+/* cancel page styling */
+.cancelBody {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20vh;
+  margin-left: 20vw;
+}
+
+.cancelAll {
+  display: flex;
+  flex-direction: column;
+}
+
+.cancelImage {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 20vw;
+}
+
+button {
+    margin-left: 10vw;
+    margin-top: 20vh;
+}

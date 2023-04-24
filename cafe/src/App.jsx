@@ -1,12 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import Menu from "./pages/Menu";
 import Main from "./pages/Main";
-import Cart from "./pages/Cart";
-import Cancel from "./pages/Cancel";
-import Success from "./pages/Success";
+import Test from "./pages/Test"
 import Store from "./pages/Store";
 import CartProvider from "./cartContext";
+import Cancel from "./pages/Cancel";
+import Success from "./pages/Success";
 import { Container } from "react-bootstrap";
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
               exact
               caseSensitive={false}
               path="/main"
-              element={<Main />}
+              element={<Test />}
             />
           </Routes>
           <Routes>
