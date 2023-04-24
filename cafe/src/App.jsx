@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Main from "./pages/Main";
-import Test from "./pages/Test"
 import Store from "./pages/Store";
 import CartProvider from "./cartContext";
 import Cancel from "./pages/Cancel";
@@ -18,7 +17,7 @@ function App() {
               exact
               caseSensitive={false}
               path="/main"
-              element={<Test />}
+              element={<Main />}
             />
           </Routes>
           <Routes>

@@ -8,15 +8,15 @@ import "../assets/css/lightbox.css";
 import "../assets/css/owl-carousel.css";
 
 import logo from "../assets/images/logo.png";
-import logo2 from "../assets/images/logo2.png";
+import logo3 from "../assets/images/logo3.jfif";
 import slide_01 from "../assets/images/slide-01.jpg";
 import thumb_01 from "../assets/images/about-thumb-01.jpg";
 import thumb_02 from "../assets/images/about-thumb-02.jpg";
 import thumb_03 from "../assets/images/about-thumb-03.jpg";
 import video_bg from "../assets/images/about-video-bg.jpg";
-import breakfast from "../assets/images/about-video-bg.jpg";
+import breakfast from "../assets/images/breakfast.jfif";
 import drinks from "../assets/images/tab-item-02.png";
-import lunch from "../assets/images/about-video-bg.jpg";
+import lunch from "../assets/images/lunch.jfif";
 
 const Main = () => {
   return (
@@ -417,7 +417,7 @@ const Main = () => {
             <div className="col-lg-4">
               <div className="logo">
                 <a href="index.html">
-                  <img src={logo2} alt="" />
+                  <img src={logo3} alt="" />
                 </a>
               </div>
             </div>

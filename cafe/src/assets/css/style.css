@@ -22,6 +22,7 @@ body {
 }
 
 .cart {
+  width: 200px;
   margin: auto;
   margin-right: 50px;
   background-color: #fff;
@@ -188,4 +189,3 @@ body {
   background-color: #fff;
   background-image: none;
 }
-
