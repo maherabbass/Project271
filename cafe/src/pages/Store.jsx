@@ -11,6 +11,7 @@ const Store = () => {
       <h1 align="center" className="p-3">
         Welcome to our Store!
       </h1>
+      <div></div>
       <Row xs={1} md={3} className="g-4">
         {itemsArray.map((item, idx) => (
           <Col align="center" key={idx}>
