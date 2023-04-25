@@ -1,315 +1,65 @@
-{"Items":[
-    { 
-        "itemName":"Croissant Zaatar",
-        "itemType":"breakfast",
-        "price":"1$",
-        "available_amount":"12",
-        "Description_":"about this item..",
-        "image1URL":"./assets/images/menu/item1.jfif"
+{
+  "Items": [
+    {
+      "ItemName": "Blueberry Pancakes",
+      "ItemType": "Breakfast",
+      "price": 8.99,
+      "available_amount": 10,
+      "Description_": "Fluffy pancakes filled with fresh blueberries and topped with whipped cream and maple syrup.",
+      "ImageUrl": "https://example.com/blueberry-pancakes.jpg"
     },
-    { 
-        "itemName":"Croissant Pizza",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item1.jfif"
+
+    {
+      "ItemName": "Tuna Salad Sandwich",
+      "ItemType": "Lunch",
+      "price": 6.99,
+      "available_amount": 15,
+      "Description_": "A classic tuna salad sandwich made with chunky tuna, celery, onions, and mayo on whole wheat bread.",
+      "ImageUrl": "https://example.com/tuna-salad-sandwich.jpg"
     },
-    { 
-        "itemName":"Croissant Cheese",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item1.jfif"
+
+    {
+      "ItemName": "Hummus and Pita Chips",
+      "ItemType": "Snacks",
+      "price": 4.99,
+      "available_amount": 20,
+      "Description_": "Creamy hummus served with crispy pita chips for a satisfying snack any time of day.",
+      "ImageUrl": "https://example.com/hummus-and-pita.jpg"
     },
-    { 
-        "itemName":"Croissant Chocolate",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item1.jfif"
+
+    {
+      "ItemName": "Belgian Waffle",
+      "ItemType": "Breakfast",
+      "price": 7.99,
+      "available_amount": 12,
+      "Description_": "A light and fluffy Belgian waffle served with fresh berries and whipped cream.",
+      "ImageUrl": "https://example.com/belgian-waffle.jpg"
     },
-    { 
-        "itemName":"Premium Local Cookies",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item4.jfif"
+
+    {
+      "ItemName": "Roasted Vegetable Wrap",
+      "ItemType": "Lunch",
+      "price": 9.99,
+      "available_amount": 8,
+      "Description_": "A flavorful wrap filled with roasted vegetables, avocado, and hummus for a healthy and satisfying meal.",
+      "ImageUrl": "https://example.com/roasted-vegetable-wrap.jpg"
     },
-    { 
-        "itemName":"Chocolate Muffin",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item5.jfif"
+
+    {
+      "ItemName": "Yogurt Parfait",
+      "ItemType": "Breakfast",
+      "price": 5.99,
+      "available_amount": 18,
+      "Description_": "A refreshing parfait made with creamy Greek yogurt, fresh berries, and crunchy granola.",
+      "ImageUrl": "https://example.com/yogurt-parfait.jpg"
     },
-    { 
-        "itemName":"Vanilla Muffin",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"x./assets/images/menu/item5.jfif"
-    },
-    { 
-        "itemName":"Fudge Brownie",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item6.jfif"
-    },
-    { 
-        "itemName":"Saj Zaatar",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"x./assets/images/menu/item8.jfif"
-    },
-    { 
-        "itemName":"Saj Labneh",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item8.jfif"
-    },
-    { 
-        "itemName":"Saj Cocktail",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item8.jfif"
-    },
-    { 
-        "itemName":"Saj Peanut Butter",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item8.jfif"
-    },
-    { 
-        "itemName":"Saj Jebneh",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item8.jfif"
-    },
-    { 
-        "itemName":"Saj Chocolate",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item8.jfif"
-    },
-    { 
-        "itemName":"Saj Labneh",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item8.jfif"
-    },
-    { 
-        "itemName":"Halloumi Sandwich",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item3.jfif"
-    },
-    { 
-        "itemName":"Turkey & Cheese Shandwich",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item3.jfif"
-    },
-    { 
-        "itemName":"Chicken Sandwich",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item3.jfif"
-    },
-    { 
-        "itemName":"Tuna Sandwich",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item3.jfif"
-    },
-    { 
-        "itemName":"Crab Sandwich",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item3.jfif"
-    },
-    { 
-        "itemName":"Chicken Montana",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item3.jfif"
-    },
-    { 
-        "itemName":"Greek Salad",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item7.jfif"
-    },
-    { 
-        "itemName":"Crab Salad",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item7.jfif"
-    },
-    { 
-        "itemName":"Tuna Salad",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item7.jfif"
-    },
-    { 
-        "itemName":"Espresso Single",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item9.jfif"
-    },
-    { 
-        "itemName":"Espresso Macchiato",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item9.jfif"
-    },
-    { 
-        "itemName":"Espresso Double",
-        "price":"1.5$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item9.jfif"
-    },
-    { 
-        "itemName":"Cafe Latte Small",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item10.jfif"
-    },
-    { 
-        "itemName":"Cafe Latte Medium",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item10.jfif"
-    },
-    { 
-        "itemName":"Iced Mocha Small",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item11.jfif"
-    },
-    { 
-        "itemName":"Iced Mocha Medium",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item11.jfif"
-    },
-    { 
-        "itemName":"Americano Small",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item13.jfif"
-    },
-    { 
-        "itemName":"Americano Medium",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item13.jfif"
-    },{ 
-        "itemName":"Capuccino Small",
-        "price":"2$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item12.jfif"
-    },
-    { 
-        "itemName":"Capuccino Medium",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item12.jfif"
-    },
-    { 
-        "itemName":"Bagel Chioco",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Bagel Fetta",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Bagel Halloum",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Bagel Jam Butter",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Bagel Labneh",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Bagel Peanut Butter",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Bagel Philadephia & Jam",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Bagel Philadephia Cheese",
-        "price":"3$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item14.jfif"
-    },
-    { 
-        "itemName":"Water",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item15.jfif"
-    },
-    { 
-        "itemName":"Chips",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item17.jfif"
-    },
-    { 
-        "itemName":"Peanuts",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item16.jfif"
-    },
-    { 
-        "itemName":"Cashew",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item16.jfif"
-    },
-    { 
-        "itemName":"Bake Rolls",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item18.jfif"
-    },
-    { 
-        "itemName":"Rim Sparkling Water",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item19.jfif"
-    },
-    { 
-        "itemName":"Pepsi-Miranda-7UP",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item22.jfif"
-    },
-    { 
-        "itemName":"Dark Blue",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item20.jfif"
-    },
-    { 
-        "itemName":"Laban Ayran",
-        "price":"1$",
-        "details":"about this item..",
-        "image1URL":"./assets/images/menu/item21.jfif"
+    {
+      "ItemName": "Fruit Salad",
+      "ItemType": "Snacks",
+      "price": 3.99,
+      "available_amount": 25,
+      "Description_": "A colorful mix of fresh fruits, perfect for a light and healthy snack.",
+      "ImageUrl": "https://example.com/fruit-salad.jpg"
     }
-]}
+  ]
+}

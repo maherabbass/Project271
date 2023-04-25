@@ -4,7 +4,7 @@ module.exports = {
   createItem: (data, callBack) => {
     console.log(data);
     conn.query(
-      `insert into menu(ItemName , ItemType,  price , available_amount, Description_, ImageUrl) values($1,$2,$3,$4,$5, $6)`,
+      `insert into menu(ItemName , ItemType,  price , available_amount, Description_, imageurl) values($1,$2,$3,$4,$5,$6)`,
 
       [
         data.ItemName,
@@ -17,7 +17,7 @@ module.exports = {
 
         data.Description_,
 
-        ImageUrl,
+        data.ImageUrl,
       ],
 
       (error, results, fields) => {
