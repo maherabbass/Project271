@@ -2,8 +2,9 @@ const conn = require("../../database");
 
 module.exports = {
   createItem: (data, callBack) => {
+    console.log(data);
     conn.query(
-      `insert into menu(ItemName , ItemType,  price , available_amount, Description_) values(?,?,?,?,?)`,
+      `insert into menu(ItemName , ItemType,  price , available_amount, Description_, ImageUrl) values($1,$2,$3,$4,$5, $6)`,
 
       [
         data.ItemName,
@@ -15,6 +16,8 @@ module.exports = {
         data.available_amount,
 
         data.Description_,
+
+        ImageUrl,
       ],
 
       (error, results, fields) => {
@@ -29,7 +32,7 @@ module.exports = {
 
   getItems: (callBack) => {
     conn.query(
-      `select ItemName, ItemType, price , available_amount, Description_ from menu`,
+      `select ItemName, ItemType, price , available_amount, Description_, ImageUrl from menu`,
 
       [],
 
@@ -45,7 +48,7 @@ module.exports = {
 
   getItemByItemName: (ItemName, callBack) => {
     conn.query(
-      `select ItemName , ItemType, price , available_amount , Description_  from menu where ItemName = ?`,
+      `select ItemName , ItemType, price , available_amount , Description_ ,ImageUrl  from menu where ItemName = $1`,
 
       [ItemName],
 
@@ -61,7 +64,7 @@ module.exports = {
 
   getItemByItemType: (ItemType, callBack) => {
     conn.query(
-      `select ItemName , ItemType, price , available_amount, Description_ from menu where ItemType = ?`,
+      `select ItemName , ItemType, price , available_amount, Description_, ImageUrl from menu where ItemType = $1`,
 
       [ItemType],
 
@@ -77,7 +80,7 @@ module.exports = {
 
   updateItem: (data, callBack) => {
     conn.query(
-      `update menu set ItemType = ?, price=?,  available_amount=?, Description_ = ? where ItemName = ?`,
+      `update menu set ItemType = $1, price=$2,  available_amount=$3, Description_ = $4, ImageUrl = $5 where ItemName = $5`,
 
       [
         data.ItemType,
@@ -89,6 +92,8 @@ module.exports = {
         data.ItemName,
 
         data.Description_,
+
+        ImageUrl,
       ],
 
       (error, results, fields) => {
@@ -103,7 +108,7 @@ module.exports = {
 
   deleteItem: (data, callBack) => {
     conn.query(
-      "delete from menu where ItemName = ?",
+      "delete from menu where ItemName = $1",
 
       [data.ItemName],
 
