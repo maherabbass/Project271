@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const { genSaltSync, hashSync, compareSync } = require("bcrypt");
 const {
   create,

@@ -9,6 +9,10 @@ const Login = () => {
     event.preventDefault();
     console.log(email);
     console.log(password);
+    const form = {
+      email: email,
+      password_: password,
+    };
 
     await fetch("https://aub-cafe-271.onrender.com/api/users/login", {
       method: "POST",
@@ -16,13 +20,11 @@ const Login = () => {
         Accept: "application.json",
         "Content-Type": "application/json",
       },
-      body: {
-        email: email,
-        password_: password,
-      },
+      body: JSON.stringify(form),
       cache: "default",
     })
       .then((data) => {
+        localStorage.setItem("token", data.token);
         console.log("Test");
       })
       .catch((error) => {
