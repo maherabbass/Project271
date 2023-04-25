@@ -18,6 +18,8 @@ import breakfast from "../assets/images/breakfast.jfif";
 import drinks from "../assets/images/tab-item-02.png";
 import lunch from "../assets/images/lunch.jfif";
 
+
+
 const Main = () => {
   return (
     <>
@@ -148,11 +150,7 @@ const Main = () => {
               <div className="chef-item">
                 <div className="thumb">
                   <div className="overlay"></div>
-                  <img
-                    src={breakfast}
-                    alt="Chef #1"
-                    style={{ width: 233, height: 220 }}
-                  />
+                  <img src={breakfast} alt="Chef #1" />
                 </div>
                 <div className="down-content">
                   <h4>Breakfast</h4>
@@ -163,11 +161,7 @@ const Main = () => {
               <div className="chef-item">
                 <div className="thumb">
                   <div className="overlay"></div>
-                  <img
-                    src={drinks}
-                    alt="Chef #1"
-                    style={{ width: 233, height: 220 }}
-                  />
+                  <img src={drinks} alt="Chef #1" />
                 </div>
                 <div className="down-content">
                   <h4>Drinks</h4>
@@ -178,11 +172,7 @@ const Main = () => {
               <div className="chef-item">
                 <div className="thumb">
                   <div className="overlay"></div>
-                  <img
-                    src={lunch}
-                    alt="Chef #1"
-                    style={{ width: 273, height: 220 }}
-                  />
+                  <img src={lunch} alt="Chef #1" />
                 </div>
                 <div className="down-content">
                   <h4>Lunch</h4>

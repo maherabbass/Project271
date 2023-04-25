@@ -4,6 +4,9 @@ const app = express();
 const userRouter = require("./api/users/user.router");
 const menuRouter = require("./api/menu/menu.router");
 const reservationRouter = require("./api/reservation/reservation.router");
+const cors = require("cors");
+
+app.use(cors());
 
 app.use(express.json());
 app.use("/api/users", userRouter);
