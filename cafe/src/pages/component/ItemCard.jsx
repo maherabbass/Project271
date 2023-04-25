@@ -4,6 +4,7 @@ import { CartContext } from "../../cartContext";
 import { useContext } from "react";
 import ReactCardFlip from "react-card-flip";
 import { useState } from "react";
+import "../../assets/css/style.css";
 
 const ItemCard = (props) => {
   const item = props.item;
