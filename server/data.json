@@ -1,39 +1,21 @@
 {
   "Items": [
     {
-      "ItemName": "Blueberry Pancakes",
-      "ItemType": "Breakfast",
-      "price": 8.99,
-      "available_amount": 10,
-      "Description_": "Fluffy pancakes filled with fresh blueberries and topped with whipped cream and maple syrup.",
-      "ImageUrl": "https://example.com/blueberry-pancakes.jpg"
-    },
-
-    {
       "ItemName": "Tuna Salad Sandwich",
       "ItemType": "Lunch",
       "price": 6.99,
       "available_amount": 15,
       "Description_": "A classic tuna salad sandwich made with chunky tuna, celery, onions, and mayo on whole wheat bread.",
-      "ImageUrl": "https://example.com/tuna-salad-sandwich.jpg"
+      "ImageUrl": "https://drive.google.com/file/d/1K8-htOhKnRGHR60WUtAmwB71_PJs2bUn/view?usp=share_link"
     },
 
     {
-      "ItemName": "Hummus and Pita Chips",
+      "ItemName": "Pita Chips",
       "ItemType": "Snacks",
       "price": 4.99,
       "available_amount": 20,
       "Description_": "Creamy hummus served with crispy pita chips for a satisfying snack any time of day.",
-      "ImageUrl": "https://example.com/hummus-and-pita.jpg"
-    },
-
-    {
-      "ItemName": "Belgian Waffle",
-      "ItemType": "Breakfast",
-      "price": 7.99,
-      "available_amount": 12,
-      "Description_": "A light and fluffy Belgian waffle served with fresh berries and whipped cream.",
-      "ImageUrl": "https://example.com/belgian-waffle.jpg"
+      "ImageUrl": "https://drive.google.com/file/d/1JqCMoX36RRjmydfRyOYou_HLfcqrRCNr/view?usp=share_link"
     },
 
     {
@@ -42,24 +24,24 @@
       "price": 9.99,
       "available_amount": 8,
       "Description_": "A flavorful wrap filled with roasted vegetables, avocado, and hummus for a healthy and satisfying meal.",
-      "ImageUrl": "https://example.com/roasted-vegetable-wrap.jpg"
+      "ImageUrl": "https://drive.google.com/file/d/1K8-htOhKnRGHR60WUtAmwB71_PJs2bUn/view?usp=share_link"
     },
 
     {
-      "ItemName": "Yogurt Parfait",
+      "ItemName": "Yogurt",
       "ItemType": "Breakfast",
       "price": 5.99,
       "available_amount": 18,
       "Description_": "A refreshing parfait made with creamy Greek yogurt, fresh berries, and crunchy granola.",
-      "ImageUrl": "https://example.com/yogurt-parfait.jpg"
+      "ImageUrl": "https://drive.google.com/file/d/181ZJrl_5n0x5zGQHFcaN2vUFOZWyLKgi/view?usp=share_link"
     },
     {
-      "ItemName": "Fruit Salad",
+      "ItemName": "Chips",
       "ItemType": "Snacks",
       "price": 3.99,
       "available_amount": 25,
       "Description_": "A colorful mix of fresh fruits, perfect for a light and healthy snack.",
-      "ImageUrl": "https://example.com/fruit-salad.jpg"
+      "ImageUrl": "https://drive.google.com/file/d/1z4IvCsTeTIYjMd7SFLsZtoI0_LRYGFe_/view?usp=share_link"
     }
   ]
 }

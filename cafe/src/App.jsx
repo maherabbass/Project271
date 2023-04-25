@@ -10,50 +10,38 @@ import { Container } from "react-bootstrap";
 function App() {
   return (
     <CartProvider>
-      <Container>
-        <BrowserRouter>
-          <Routes>
-            <Route
-              exact
-              caseSensitive={false}
-              path="/main"
-              element={<Main />}
-            />
-          </Routes>
-          <Routes>
-            <Route
-              exact
-              caseSensitive={false}
-              path="/login"
-              element={<Login />}
-            />
-          </Routes>
-          <Routes>
-            <Route
-              exact
-              caseSensitive={false}
-              path="/menu"
-              element={<Store />}
-            />
-          </Routes>
-          <Routes>
-            <Route
-              exact
-              caseSensitive={false}
-              path="/cancel"
-              element={<Cancel />}
-            />
-          </Routes>
-          <Routes>
-            <Route
-              exact
-              caseSensitive={false}
-              path="/success"
-              element={<Success />}
-            />
-          </Routes>
-        </BrowserRouter>
-      </Container>
+      <BrowserRouter>
+        <Routes>
+          <Route exact caseSensitive={false} path="/main" element={<Main />} />
+        </Routes>
+        <Routes>
+          <Route
+            exact
+            caseSensitive={false}
+            path="/login"
+            element={<Login />}
+          />
+        </Routes>
+        <Routes>
+          <Route exact caseSensitive={false} path="/menu" element={<Store />} />
+        </Routes>
+        <Routes>
+          <Route
+            exact
+            caseSensitive={false}
+            path="/cancel"
+            element={<Cancel />}
+          />
+        </Routes>
+        <Routes>
+          <Route
+            exact
+            caseSensitive={false}
+            path="/success"
+            element={<Success />}
+          />
+        </Routes>
+      </BrowserRouter>
     </CartProvider>
   );
 }

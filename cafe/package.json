@@ -19,7 +19,8 @@
     "react-card-flip": "^1.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
-    "react-schedule-job": "^1.2.0"
+    "react-schedule-job": "^1.2.0",
+    "stripe": "^12.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

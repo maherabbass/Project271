@@ -3,13 +3,13 @@
   padding: 0;
   font-family: sans-serif;
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  height: 700px;
+  width: 100%;
   overflow: hidden;
 }
 
 .left {
-  width: 30%;
+  width: 450px;
   background-color: #840132;
 }
 
@@ -22,17 +22,12 @@
   margin-top: -25px;
 }
 
-.about {
-  color: #fff;
-  text-align: center;
-  margin-top: 45vh;
-}
-
 .right {
-  width: 70%;
+  width: 1100px;
   background-image: url(../images/slide-01.jpg);
   background-size: cover;
   background-position: center;
+  
 }
 
 .loginbox {
@@ -46,14 +41,6 @@
   margin-top: 250px;
   border-radius: 10px;
 }
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: -50px;
-  left: calc(50% - 50px);
-}
 
 .loginbox h1 {
   margin-top: -50px;
@@ -65,14 +52,8 @@
   color: #840132;
 }
 
-.loginbox label {
-  margin-left: -500;
-  font-weight: bold;
-  color: #840132;
-}
-
 .loginbox input {
-  width: 100%;
+  width: 250px;
   margin-bottom: 20px;
 }
 

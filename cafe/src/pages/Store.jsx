@@ -9,7 +9,7 @@ const Store = () => {
     <>
       <NavbarComponent></NavbarComponent>
       <h1 align="center" className="p-3">
-        Welcome to our Store!
+        Available Items 
       </h1>
       <div></div>
       <Row xs={1} md={3} className="g-4">

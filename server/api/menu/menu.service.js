@@ -2,6 +2,7 @@ const conn = require("../../database");
 
 module.exports = {
   createItem: (data, callBack) => {
+    console.log(data);
     conn.query(
       `insert into menu(ItemName , ItemType,  price , available_amount, Description_, imageurl) values($1,$2,$3,$4,$5,$6)`,
 
@@ -106,10 +107,11 @@ module.exports = {
   },
 
   deleteItem: (data, callBack) => {
+    console.log(data);
     conn.query(
       "delete from menu where ItemName = $1",
 
-      [data.ItemName],
+      [data.itemname],
 
       (error, results, fields) => {
         if (error) {

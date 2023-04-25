@@ -18,9 +18,10 @@ import breakfast from "../assets/images/breakfast.jfif";
 import drinks from "../assets/images/tab-item-02.png";
 import lunch from "../assets/images/lunch.jfif";
 
-
+import { useNavigate } from "react-router-dom";
 
 const Main = () => {
+  const navigate = useNavigate();
   return (
     <>
       <header className="header-area header-sticky">
@@ -44,7 +45,7 @@ const Main = () => {
                     <a href="#chefs">Menu</a>
                   </li>
                   <li className="scroll-to-section">
-                    <a href="#reservation">Contact Us</a>
+                    <a href={navigate("/menu")}>Contact Us</a>
                   </li>
                 </ul>
                 <a className="menu-trigger">
@@ -150,6 +151,7 @@ const Main = () => {
               <div className="chef-item">
                 <div className="thumb">
                   <div className="overlay"></div>
+                  <a href="http://localhost:5173/menu"></a>
                   <img src={breakfast} alt="Chef #1" />
                 </div>
                 <div className="down-content">
