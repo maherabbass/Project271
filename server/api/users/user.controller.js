@@ -117,6 +117,7 @@ module.exports = {
         });
       }
       const result = compareSync(body.password_, results.password_);
+      console.log(result);
       if (result) {
         results.password_ = undefined;
         const jsontoken = sign({ result: results }, process.env.SECRET_KEY, {
